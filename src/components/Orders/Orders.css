@@ -1,0 +1,18 @@
+.review-items-container {
+    margin: 0 auto;
+}
+
+.cart-btn {
+    border: none;
+    background-color: #FF9900;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 5px 0;
+    width: 100%;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.credit-icon {
+    margin-left: 10px;
+}
