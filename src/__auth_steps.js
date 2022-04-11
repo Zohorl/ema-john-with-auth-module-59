@@ -9,13 +9,14 @@
  * 8.useCreateUserWithEmailAndPassword from react-firebase-hooks
  * 9.if user is created redirect to the expected page
  * 10.useSignInWithEmailAndPassword for login
- * 11.
+ * 11.Create requireAuth component ==> check user exists also track user location
+ * 12.In route wrap Protected component by using Require Auth component
  *  */
 
 
 
 /***
- * hoisting steps :
+ * firebase hoisting steps :
  * 1.npm install -g firebase-tools
  * 2.firebase login
  * 3.firebase init
