@@ -2,8 +2,8 @@ import React, { Children } from 'react';
 import Products from '../Products/Products';
 import './Cart.css';
 const Cart = (props) => {
-    console.log(props)
     const { cart } = props;
+    console.log(cart)
     let total = 0;
     let shipping = 0;
     let quantity = 0;
